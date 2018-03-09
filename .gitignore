@@ -1,0 +1,6 @@
+x64/
+MathLibrary/x64/
+*.db
+*.opendb
+*.user
+*.filters
