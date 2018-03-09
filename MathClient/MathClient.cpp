@@ -6,14 +6,14 @@
 int main()
 {
     // Initialize a Fibonacci relation sequence.
-    fibonacci_init(1, 1);
+    Math::fibonacci_init(1, 1);
     // Write out the sequence values until overflow.
     do {
-        std::cout << fibonacci_index() << ": "
-            << fibonacci_current() << std::endl;
-    } while (fibonacci_next());
+        std::cout << Math::fibonacci_index() << ": "
+            << Math::fibonacci_current() << std::endl;
+    } while (Math::fibonacci_next());
     // Report count of values written before overflow.
-    std::cout << fibonacci_index() + 1 <<
+    std::cout << Math::fibonacci_index() + 1 <<
         " Fibonacci sequence values fit in an " <<
         "unsigned 64-bit integer." << std::endl;
 }
