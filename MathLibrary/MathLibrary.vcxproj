@@ -142,6 +142,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Fibonacci.h" />
     <ClInclude Include="MathLibrary.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
@@ -161,6 +162,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
       </PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="Fibonacci.cpp" />
     <ClCompile Include="MathLibrary.cpp" />
     <ClCompile Include="stdafx.cpp" />
   </ItemGroup>
